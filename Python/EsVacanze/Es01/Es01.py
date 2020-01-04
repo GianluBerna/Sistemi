@@ -21,3 +21,6 @@ w = "This is the left side of..."   #creo una variabile string
 e = "a string with a right side."   #creo una variabile string
 
 print(w + e)    #stampo le due variabili string concatenandole insieme
+
+
+# Non ci sono 4 inserimenti di stringa in una stringa ma ben 5 alla riga (2,6(ci sono 2 inserimenti),11,12)
