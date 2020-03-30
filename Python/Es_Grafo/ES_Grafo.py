@@ -1,3 +1,4 @@
+#grafo non pesato non orientato
 def main():
     v = int(input("Inserire il numero di nodi : "))
     dict = creaDictDaNumNodi(v)
