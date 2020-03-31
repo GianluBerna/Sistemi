@@ -50,11 +50,11 @@ def Elimina(lista):
 
 def trovaPazienteZero(dict):
     listaPazientiZero=[]
-    for p in range(0, len(dict)): listaPazientiZero.append(trova(p, dict))      #cicla sul dizionario e assegna a listaPazientiZero per ogni cella un paziente Zero
+    for p in range(0, len(dict)): listaPazientiZero.append(cerca(p, dict))      #cicla sul dizionario e assegna a listaPazientiZero per ogni cella un paziente Zero
     return Elimina(listaPazientiZero)           #passo tutta la lista e pulisco dei doppioni che vengono creati dal for
 
 
-def trova(find, dict):
+def cerca(find, dict):
     tro = False
     for key, val in dict.items():           #for su tutto il dizionario
         if find in val:                     #controllo se il mio valore passato è presente nella lista val
