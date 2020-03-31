@@ -56,7 +56,7 @@ def trovaPazienteZero(dict):
 
 def cerca(find, dict):
     tro = False
-    for key, val in dict.items():           #for su tutto il dizionario
+    for key, val in dict.items():           #for su tutto il dizionario (key : chiave, val : lista)
         if find in val:                     #controllo se il mio valore passato è presente nella lista val
             tro = True
             return trova(key, dict)         #richiamo la funzione e contiuno a cercare
